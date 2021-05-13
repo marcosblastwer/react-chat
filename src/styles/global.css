@@ -1,0 +1,78 @@
+@import-normalize;
+
+body {
+  margin: 0;
+  overflow: hidden;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+  transition: padding .2s;
+}
+
+@media(min-width: 1024px) {
+  body {
+    padding: 7em 6em;
+  }
+}
+
+@media(min-width: 1280px) {
+  body {
+    padding: 7em 8em;
+  }
+}
+
+@media(min-width: 1480px) {
+  body {
+    padding: 7em 10em;
+  }
+}
+
+@media(min-width: 1680px) {
+  body {
+    padding: 7em 12em;
+  }
+}
+
+@media(min-width: 1850px) {
+  body {
+    padding: 7em 16em;
+  }
+}
+
+@media(min-width: 1920px) {
+  body {
+    padding: 7em 22em;
+  }
+}
+
+html,
+body,
+#root {
+  background-color: #efefef;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body, a, div, span, b, small, h1, h2, h3, h4, h5, h6, header, footer, input, button {
+  font-family: Roboto, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, a, div, span, b, small, header, footer, input, button {
+  font-weight: normal;
+} 
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
