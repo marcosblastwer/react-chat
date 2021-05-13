@@ -23,7 +23,7 @@ const MessageList: FunctionComponent<MessageListProps> = ({ user, messages }) =>
           else if (messageUser === user)
             return <LoggedUserMessage key={id} content={content} />
           else
-            return <GenericMessage key={id} user={user} content={content} />
+            return <GenericMessage key={id} user={messageUser} content={content} />
         })
       }
     </Container>
